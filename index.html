@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <a href="#"><img src="./Imgs/logo.png" class="logo"></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+        </ul>
+    </header>
+    <div class="hero">
+        <div class="left-content">
+            <h2>iphone 13 pro max</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem excepturi nulla sit a? Quidem odio libero commodi </p>
+            <button> Show More</button>
+        </div>
+        <div class="right-content">
+            <img src="./Imgs/0.png" class="big">
+        </div>
+    </div>
+    <div class="iphones">
+        <img onclick="changeBigPhoto(this.src); changeColor('#ffc107')" src="./Imgs/0.png" alt="">
+        <img onclick="changeBigPhoto(this.src); changeColor('#247ec8')" src="./Imgs/1.png" alt="">
+        <img onclick="changeBigPhoto(this.src); changeColor('#1e1e1e')" src="./Imgs/2.png" alt="">
+        <img onclick="changeBigPhoto(this.src); changeColor('#c79b53')" src="./Imgs/3.png" alt="">
+        <img onclick="changeBigPhoto(this.src); changeColor('#c82525')" src="./Imgs/4.png" alt="">
+    </div>
+</div>
+
+
+
+
+    <script src="logic.js"></script>
+</body>
+</html>
